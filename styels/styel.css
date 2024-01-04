@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+h2{
+  /* color: deeppink; */
+}
+.hero{
+  background-image: url(../images/lucas-k-wQLAGv4_OYs-unsplash.jpg);
+  height: 100vh;
+  /* background-position: bottom center; */
+  background-size: cover;
+  margin: 100px;
+  /* clip-path: polygon(0 0, 48% 100%, 100% 0);
+  /* clip-path: polygon(0 0, 100% 0, 100% 50%, 52% 100%, 48% 100%, 0% 50%) */
+  clip-path: polygon(0 0, 100% 0, 100% 50%, 52% 100%, 48% 100%, 0% 50%);
+}
+.hero h2{
+  color: rgb(96, 245, 225);
+  font-size: 50px;
+  font-style: italic;
+  text-align: center;
+}
+.babul{
+  margin: 60px auto;
+  background-color: aqua;
+  padding: 60px;
+  border-width: 15px;
+  border-color: black;
+  border-style: solid;
+}
+.babul h3{
+  text-align: center;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  border-width: 5px;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  border-style: solid;
+}
+.hero .babul{
+/* background-color: aquamarine; */
+}
+
+
+
+
+
